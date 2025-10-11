@@ -1,3 +1,4 @@
+// for server API keys
 SUPABASE_URL=https://wswtwazftgfqbrhguedi.supabase.co 
 SERVICE_ROLE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Indzd3R3YXpmdGdmcWJyaGd1ZWRpIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1MTgwMjk3OCwiZXhwIjoyMDY3Mzc4OTc4fQ.z5kDpFYOkOUGckWdjlwC5qpREfsDhZY0CcEXKGtxkHI
 # PROJECT_ID=chattersocket

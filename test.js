@@ -1,26 +1,29 @@
-let user = [
-    {
-        conversation_id: 1,
-        id: 19,
-        username: "salim30",
-        fName: "Salim Khan",
-        profile_pic: "…",
-        isOnline: true,
-        unseenCount: 2, // 👈
-    },
-    {
-        conversation_id: 3,
-        id: 35,
-        username: "gul",
-        fName: "Gul Khan",
-        profile_pic: "…",
-        isOnline: false,
-        unseenCount: 0, // 👈
-    },
-];
-// unseen count for this user
- user.map((value)=>{
-    
-     console.log(value.username, "=> unseen:", value.unseenCount);
-})
+SUPABASE_URL=https://wswtwazftgfqbrhguedi.supabase.co 
+SERVICE_ROLE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Indzd3R3YXpmdGdmcWJyaGd1ZWRpIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1MTgwMjk3OCwiZXhwIjoyMDY3Mzc4OTc4fQ.z5kDpFYOkOUGckWdjlwC5qpREfsDhZY0CcEXKGtxkHI
+# PROJECT_ID=chattersocket
+# CLIENT_EMAIL=firebase-adminsdk-fbsvc@chattersocket.iam.gserviceaccount.com
+# PRIVATE_KEY=-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDNOYGopdE+8knT\nluBWMKDMjva8udNGQ5xGhpm8gxYUf90fXV/BXtMYVzD0UMezJoaf9HFz+qxpH4Bc\nHlx0EIszJNqaKQwUnKNlO82SpADD0GQGKHQ8lWqybtdjsXLgL4/9uVsoHJ534OKh\nv/0mZQrdHF3MNaR7q7omla8tLa5vwR0IqncW002bYkFi+rG+xHdoZUU1nMMJ7zqE\n3RvkaPMhZC2O+xQSkUe5A3rvOi2EyCAxekaEiVbj2k7b55noXo0XXxUBEWT4AQ5+\nMA4ZgxaksxrRagSMYAwPjm4O16dgevRzWjuRR0dNfUjugsvIgkg7WXtsFQWXdlCa\n3chch2LPAgMBAAECggEAM2A2l9gvCnGQTtKCBcG1t5AAr91bSUdKu5MdsIYmhGpA\nGoZ/HsMU2I6XWEpSvAQkhq2kq1KxT73NngIRxhKQLnUG7rng5tYRx5mRjKjW8i5c\no/gDpVkIdXPvIut85SezBeMdsWx8tWkMg06zWqXH8vOTfbheHYGvn9IwIQDDHwGH\n5dX2fS0cq7dS9oyBiVZIshSL7totuCWFauOFQtRU7gZLF++1CA/WqmJ794lwKLdb\nPum3NXw3O+xs/XZhiiC00T8RC6N9+7YnEtgjQ8HySkPQKxCBT7gTaN9VGC5YUYgY\n+FH88mcyhwj2Veu7DLhaQtsL5TKibRE/1cMtdiGYLQKBgQDtC/5kGwISPYa7JJw3\nFI55jfguk/CsiDnkepLlvmGXyeipaR6JN7A1IK7GVrYypC/q1hwq/RT0zT63D4yB\nQ+ieWK0OF3RUu+32p812ZhK2zpyAq8kh4QSB9F1jxT0x82ipUk96Emsd3laiI1zL\nLJS1YE96VLxtbjpHYfdxoyvh7QKBgQDdoihz9SsqXIYDls+Clg3L2owTrxzqjdwa\nJ7QeUQHgO1aErsE2l21OYmsPVIhClsQaE+Fk4tyMlxvHFC5cXJ40zkEFeUxmGxIn\nBw6ix/ZQjp1RDdCQZ2HjXAVHzewusm4+y7TsmiP+dVSFL257PwKhhwxNR5WEP22I\nNjU8F3wwKwKBgBMqnBgWAvXcma86B5OAiwCTFRUXCye4IA40RvpiiVuPjMtd34Uy\nxoGVMeyBiFvR4Ln5M+/Z5L7idYaxsCeniQB8pQl1pgdP5q7B5KAFItA7JnZU7X9a\nxVWIn6B4izkluDmwmRKCuLyChLi5aUBYS3Ha5rI6db3XYsjwx+QdUGgFAoGAdMmM\nE35vXoUewSlo82DqqC7jfUPbMuXJw6aETS1Wlbfu4T/M5F1q5dEKpStgGeakMzGi\npay9lv/RTVgfDeBoJV9B+AZw8aT2LcaUOcawzsY3s4xaCJ3RgSLuTWX/PKQdX82r\n6rlWmjFtdjkGOL99PWySWO6NpQBfUVVvO9kMQb0CgYBl74ObHHwHVsuv6heJj9IR\n0M5t4Kvm30VSbfwpVjl2xhe8r8S/MGya8mbFG9hao7/IdCFPgKxEhrCQjpzlaAQP\nDlFsFpNa/y5XVUSv+/BequWrTB9FXt/DxCUctPpHn+TeHtl3D4tkcJ8EhJAuC3e2\nWRisJ8iBjcwuQWo+tIJqUg==\n-----END PRIVATE KEY-----\n
+# TYPE=service_account
+# PRIVATE_KEY_ID=98bbdd67ae5f6af9b43e69531c7ff9df09c22e87
+# CLIENT_ID=106537485740121754878
+# UNIVERSE_DOMAIN=googleapis.com
+# # UNIVERSE_DOMAIN=googleapis.com
+# AUTH_PROVIDER_CERT_URL=https://www.googleapis.com/oauth2/v1/certs
+# AUTH_URI=https://accounts.google.com/o/oauth2/auth
+# TOKEN_URI=https://oauth2.googleapis.com/token
 
+TYPE=service_account
+PROJECT_ID=chattersocket
+PRIVATE_KEY_ID=98bbdd67ae5f6af9b43e69531c7ff9df09c22e87
+PRIVATE_KEY=-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDNOYGopdE+8knT\nluBWMKDMjva8udNGQ5xGhpm8gxYUf90fXV/BXtMYVzD0UMezJoaf9HFz+qxpH4Bc\nHlx0EIszJNqaKQwUnKNlO82SpADD0GQGKHQ8lWqybtdjsXLgL4/9uVsoHJ534OKh\nv/0mZQrdHF3MNaR7q7omla8tLa5vwR0IqncW002bYkFi+rG+xHdoZUU1nMMJ7zqE\n3RvkaPMhZC2O+xQSkUe5A3rvOi2EyCAxekaEiVbj2k7b55noXo0XXxUBEWT4AQ5+\nMA4ZgxaksxrRagSMYAwPjm4O16dgevRzWjuRR0dNfUjugsvIgkg7WXtsFQWXdlCa\n3chch2LPAgMBAAECggEAM2A2l9gvCnGQTtKCBcG1t5AAr91bSUdKu5MdsIYmhGpA\nGoZ/HsMU2I6XWEpSvAQkhq2kq1KxT73NngIRxhKQLnUG7rng5tYRx5mRjKjW8i5c\no/gDpVkIdXPvIut85SezBeMdsWx8tWkMg06zWqXH8vOTfbheHYGvn9IwIQDDHwGH\n5dX2fS0cq7dS9oyBiVZIshSL7totuCWFauOFQtRU7gZLF++1CA/WqmJ794lwKLdb\nPum3NXw3O+xs/XZhiiC00T8RC6N9+7YnEtgjQ8HySkPQKxCBT7gTaN9VGC5YUYgY\n+FH88mcyhwj2Veu7DLhaQtsL5TKibRE/1cMtdiGYLQKBgQDtC/5kGwISPYa7JJw3\nFI55jfguk/CsiDnkepLlvmGXyeipaR6JN7A1IK7GVrYypC/q1hwq/RT0zT63D4yB\nQ+ieWK0OF3RUu+32p812ZhK2zpyAq8kh4QSB9F1jxT0x82ipUk96Emsd3laiI1zL\nLJS1YE96VLxtbjpHYfdxoyvh7QKBgQDdoihz9SsqXIYDls+Clg3L2owTrxzqjdwa\nJ7QeUQHgO1aErsE2l21OYmsPVIhClsQaE+Fk4tyMlxvHFC5cXJ40zkEFeUxmGxIn\nBw6ix/ZQjp1RDdCQZ2HjXAVHzewusm4+y7TsmiP+dVSFL257PwKhhwxNR5WEP22I\nNjU8F3wwKwKBgBMqnBgWAvXcma86B5OAiwCTFRUXCye4IA40RvpiiVuPjMtd34Uy\nxoGVMeyBiFvR4Ln5M+/Z5L7idYaxsCeniQB8pQl1pgdP5q7B5KAFItA7JnZU7X9a\nxVWIn6B4izkluDmwmRKCuLyChLi5aUBYS3Ha5rI6db3XYsjwx+QdUGgFAoGAdMmM\nE35vXoUewSlo82DqqC7jfUPbMuXJw6aETS1Wlbfu4T/M5F1q5dEKpStgGeakMzGi\npay9lv/RTVgfDeBoJV9B+AZw8aT2LcaUOcawzsY3s4xaCJ3RgSLuTWX/PKQdX82r\n6rlWmjFtdjkGOL99PWySWO6NpQBfUVVvO9kMQb0CgYBl74ObHHwHVsuv6heJj9IR\n0M5t4Kvm30VSbfwpVjl2xhe8r8S/MGya8mbFG9hao7/IdCFPgKxEhrCQjpzlaAQP\nDlFsFpNa/y5XVUSv+/BequWrTB9FXt/DxCUctPpHn+TeHtl3D4tkcJ8EhJAuC3e2\nWRisJ8iBjcwuQWo+tIJqUg==\n-----END PRIVATE KEY-----\n
+CLIENT_EMAIL=firebase-adminsdk-fbsvc@chattersocket.iam.gserviceaccount.com
+CLIENT_ID=106537485740121754878
+AUTH_URI=https://accounts.google.com/o/oauth2/auth
+TOKEN_URI=https://oauth2.googleapis.com/token
+AUTH_PROVIDER_CERT_URL=https://www.googleapis.com/oauth2/v1/certs
+CLIENT_CERT_URL=https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fbsvc%40chattersocket.iam.gserviceaccount.com
+UNIVERSE_DOMAIN=googleapis.com
+
+EMAIL_USER=chattersocket@gmail.com
+EMAIL_PASS=phbokqbuwgmzcecq 
+JWT_SECRET=4567890Random
